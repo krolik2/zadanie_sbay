@@ -43,7 +43,7 @@ function App() {
               <Card key={idx} style={{ width: "18rem" }} className="m-1">
                 <Card.Img 
                   ariant="top"
-                  src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${idx}.png`}
+                  src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${idx + 1}.png`}
                   alt="pokemon"
                 />
                               <Card.Body>
